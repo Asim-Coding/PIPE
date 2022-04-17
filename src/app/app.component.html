@@ -1,0 +1,14 @@
+<hello name="{{ name }}"></hello>
+<h1>{{name | uppercase}}</h1>
+<h1>{{name | lowercase}}</h1>
+<h1>{{name | titlecase}}</h1>
+<h4>{{today}}</h4>
+<h4>{{today| date}}</h4>
+<h4>{{today| date : 'fullDate'}}</h4>
+<h4>{{today| date : 'shortDate'}}</h4>
+<h4>{{capString(name)}}</h4>
+<h2>{{name}}}</h2>
+<h2>{{name | slice :3:9}}</h2>
+<h2>{{user | json | uppercase}}</h2>
+<h2>{{00.313400 | number:'1.2-3'}}</h2>
+<h2>{{100 | currency : 'CAD'}}</h2>
